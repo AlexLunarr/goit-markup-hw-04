@@ -401,9 +401,9 @@ img {
   text-align: center;
   color: var(--color-text);
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .team-list-icon {
-  margin-top: 16px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -482,6 +482,7 @@ img {
 }
 .footer-form {
   display: flex;
+  align-items: baseline;
 }
 .address-logo {
   width: 231px;
@@ -516,10 +517,8 @@ img {
 .address-item-link:focus {
   color: var(--color-hover);
 }
-.social {
-  margin-top: 12px;
-}
-.social-title {
+
+.social-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
